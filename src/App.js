@@ -5,6 +5,7 @@ import AddShop from './components/AddShop';
 import Search from './components/Search';
 import Delete from './components/Delete';
 import ViewAll from './components/ViewAll';
+import View from './components/View';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path='/Search' element={<Search/>}/>
         <Route path='/Delete' element={<Delete/>}/>
         <Route path='/ViewAll' element={<ViewAll/>}/>
+        <Route path='/View' element={<View/>}/>
       </Routes>
     </BrowserRouter>
   );

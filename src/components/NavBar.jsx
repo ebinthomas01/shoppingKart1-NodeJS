@@ -15,6 +15,7 @@ const NavBar = () => {
       <Link class="nav-item nav-link" to="/Search">Search</Link>
       <Link class="nav-item nav-link" to="/Delete">Delete</Link>
       <Link class="nav-item nav-link" to="/ViewAll">View All</Link>
+      <Link class="nav-item nav-link" to="/View">View New</Link>
     </div>
   </div>
 </nav>
